@@ -1,0 +1,70 @@
+
+@font-face {
+    font-family: monserat personal;
+    src: url(../fonts/MontserratAlternates-Medium.ttf);
+}
+
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 2px 2px 0 2px ;
+   
+}
+
+.logo{
+    padding: 21 58px 0 80px;
+}
+
+header img{
+    width: 400px;
+    height: 400px;
+    
+}
+
+h1{
+    font-family: monserat personal;
+    font-size: 20px;
+    text-align: center;
+    padding: 119px 58px 0px 80px;
+}
+
+nav{
+    list-style-type: none;
+    padding: 0px 10px 0px 0px;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: nowrap;
+}
+
+nav li{
+    padding: 35px 30px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+a{
+    color: blue;
+}
+
+a:hover{
+    color:brown
+}
+
+a:active{
+    color:chocolate
+}
+
+main img{
+    width: 500px;
+}
+
